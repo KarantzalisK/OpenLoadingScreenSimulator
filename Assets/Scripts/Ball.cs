@@ -6,8 +6,6 @@ public class Ball : MonoBehaviour
 {
     private Vector3 startPos;
     private Rigidbody2D rigidBody;
-
-    // Use this for initialization
  
 
     public void restart() {
@@ -17,7 +15,7 @@ public class Ball : MonoBehaviour
 
     }
 
-
+    
     void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.CompareTag("Finish"))
