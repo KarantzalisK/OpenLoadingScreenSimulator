@@ -68,7 +68,8 @@ public class moneyShow : MonoBehaviour
         }
 
         currentLoadSliceTime = loadSliceInitialTime;
-
+        
+        //Initialization of helperQuotes list that is being used to display messages to helper panel
         helperQuotes = new List<string>();
         helperQuotes.Add("I need to pee");
         helperQuotes.Add("Comming back ASAP");
